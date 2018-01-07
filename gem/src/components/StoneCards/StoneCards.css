@@ -1,0 +1,5 @@
+.btn-primary{
+    background-image: linear-gradient(to bottom,#411346 0,#411346 100%);
+    border-color: #411346;
+    text-align: center;
+}
