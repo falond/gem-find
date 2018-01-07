@@ -4,6 +4,7 @@ import "./NavBar.css";
 
 
 const NavBar = () =>
+<div className="container">
 
 <div className="navbar navbar-inverse navbar-fixed-top">
 <div className="container">
@@ -17,11 +18,11 @@ const NavBar = () =>
   </div>
   <div className="collapse navbar-collapse">
     <ul className="nav navbar-nav">
+      <li><a href="/popular-stones">Popular Stones</a></li>
       <li><a href="/moon-calendar">Full Moon Calendar</a></li>
-      <li><a href="#">Most Popular Stones</a></li>
-      <li><a href="#">Care Instructions</a></li>
     </ul>
   </div>
+</div>
 </div>
 </div>
 

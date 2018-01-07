@@ -1,0 +1,42 @@
+#lay{
+    background-image: url("images/sacred-altar.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: normal;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  #turquoise {
+    background-image: url("images/turquoise.jpg");
+
+  }
+  #amethyst{
+    background-image: url("images/amethyst.jpg");
+  }
+  #blue-topaz{
+    background-image: url("images/blue-topaz.jpg");
+  }
+  #crystal-quartz{
+    background-image: url("images/quartz.jpg");
+  }
+  #moonstone{
+    background-image: url("images/moonstone.jpg");
+  }
+  #onyx{
+    background-image: url("images/onyx.jpg");
+  }
+  
