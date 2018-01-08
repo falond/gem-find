@@ -12,11 +12,12 @@ const StoneLandingP = () =>
 </div>
 
 <div class="container marketing">
+
 <hr className="featurette-divider" />
 
       <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" id="turquoise"  width="140" height="140" />
+          <img class="rounded-circle" id="turquoise" alt="" width="140" height="140" />
           <h2>Turquoise</h2>
           <h4>Protection, wisdom, positive thoughts, balance, courage, friendship, healing, luck, love</h4>
           <h5>The perfect gift for: Anyone giving a public talk or with relationship issues</h5>
@@ -29,7 +30,7 @@ const StoneLandingP = () =>
 
         </div>
         <div class="col-lg-4">
-          <img class="rounded-circle" id="amethyst" width="140" height="140" />
+          <img class="rounded-circle" id="amethyst" alt="" width="140" height="140" />
           <h2>Amethyst</h2>
           <h4>clarity of thought, relief from grief, protection, wisdom</h4>
           <h5>The perfect gift for: a friend who is in mourning, menopausal, going through a life change, insomniacs</h5>
@@ -40,7 +41,7 @@ const StoneLandingP = () =>
               is a healing stone for blood related problems and diseases of the lung.</p>
         </div>
         <div class="col-lg-4">
-          <img class="rounded-circle" id="blue-topaz" width="140" height="140" />
+          <img class="rounded-circle" id="blue-topaz" alt="" width="140" height="140" />
           <h2>Blue Topaz</h2>
           <h4>Good fortune, communication, wisdom, truth, abundance, honesty, relaxation, forgiveness</h4>
           <h5>The perfect gift for: writers, artists, or saying ‘I’m sorry’</h5>
@@ -58,7 +59,7 @@ const StoneLandingP = () =>
 
       <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" id="crystal-quartz"  width="140" height="140" />
+          <img class="rounded-circle" id="crystal-quartz"  alt="" width="140" height="140" />
           <h2>Crystal Quartz</h2>
           <h4>Protection, healing, harmony, energy, clarity, calmness</h4>
           <h5>The perfect gift for: those who are at a computer all day, friends who need to relax or who are confused</h5>
@@ -72,7 +73,7 @@ const StoneLandingP = () =>
 
         </div>
         <div class="col-lg-4">
-          <img class="rounded-circle" id="moonstone" width="140" height="140" />
+          <img class="rounded-circle" id="moonstone" alt="" width="140" height="140" />
           <h2>Moonstone</h2>
           <h4>Love, abundance, good luck, happiness, psychic abilities, feminine energies</h4>
           <h5>The perfect git for: moms to be or new moms</h5>
@@ -84,7 +85,7 @@ const StoneLandingP = () =>
               side. Moonstone is said to have the power of making wishes come true.</p>
         </div>
         <div class="col-lg-4">
-          <img class="rounded-circle" id="onyx" width="140" height="140" />
+          <img class="rounded-circle" id="onyx" alt="" width="140" height="140" />
           <h2>Onyx</h2>
           <h4>Support, Strength, Stamina, Protection</h4>
           <h5>The perfect gift for: those in a transition period</h5>
@@ -101,7 +102,7 @@ const StoneLandingP = () =>
 
       <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" id="turquoise"  width="140" height="140" />
+          <img class="rounded-circle" id="turquoise"  alt="" width="140" height="140" />
           <h2>Turquoise</h2>
           <h4>Protection, wisdom, positive thoughts, balance, courage, friendship, healing, luck, love</h4>
           <h5>The perfect gift for: Anyone giving a public talk or with relationship issues</h5>
@@ -114,7 +115,7 @@ const StoneLandingP = () =>
 
         </div>
         <div class="col-lg-4">
-          <img class="rounded-circle" id="amethyst" width="140" height="140" />
+          <img class="rounded-circle" id="amethyst" alt="" width="140" height="140" />
           <h2>Amethyst</h2>
           <h4>clarity of thought, relief from grief, protection, wisdom</h4>
           <h5>The perfect gift for: a friend who is in mourning, menopausal, going through a life change, insomniacs</h5>
@@ -125,7 +126,7 @@ const StoneLandingP = () =>
               is a healing stone for blood related problems and diseases of the lung.</p>
         </div>
         <div class="col-lg-4">
-          <img class="rounded-circle" id="blue-topaz" width="140" height="140" />
+          <img class="rounded-circle" id="blue-topaz" alt="" width="140" height="140" />
           <h2>Blue Topaz</h2>
           <h4>Good fortune, communication, wisdom, truth, abundance, honesty, relaxation, forgiveness</h4>
           <h5>The perfect gift for: writers, artists, or saying ‘I’m sorry’</h5>
@@ -142,7 +143,7 @@ const StoneLandingP = () =>
 
       <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" id="turquoise"  width="140" height="140" />
+          <img class="rounded-circle" id="turquoise"  alt="" width="140" height="140" />
           <h2>Turquoise</h2>
           <h4>Protection, wisdom, positive thoughts, balance, courage, friendship, healing, luck, love</h4>
           <h5>The perfect gift for: Anyone giving a public talk or with relationship issues</h5>
