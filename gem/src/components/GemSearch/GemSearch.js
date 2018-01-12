@@ -7,25 +7,35 @@ const GemSearch = () =>
 <div class="container">
 
   <h1>Select some healing properties</h1>
-  <p>Once your select some healing properties click submit to see your results</p>
+  <p id="p1">Once your select some healing properties click submit to see your results</p>
+
+<hr className="featurette-divider" />
   <div class="container">
-  <form class="group">
-    <div class="checkbox">
-      <label><input type="checkbox" value="" />Protection</label>
-    </div>
-    <div class="checkbox">
-      <label><input type="checkbox" value="" />Luck</label>
-    </div>
-    <div class="checkbox">
-      <label><input type="checkbox" value="" />Communication</label>
-    </div>
+
+  <form id="center">
+  <label class="checkbox-inline">
+    <input type="checkbox" value="" />Love
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" value="" />Protection
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" value="" />Communication
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" value="" />Luck
+  </label>
+
+  <br />
+
+
+  
     <div class="form-group">
 		<button class="btn btn-primary " name="submit" type="submit">Submit</button>
 	</div>
   </form>
 </div>
 </div>
-
 
 
 

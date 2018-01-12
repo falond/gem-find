@@ -8,7 +8,7 @@ const Home = () =>
 <div>
 <Jumbotron />
 <GemSearch />
-{/* <StoneCards /> */}
+<StoneCards />
 <Features />
 </div>
 
