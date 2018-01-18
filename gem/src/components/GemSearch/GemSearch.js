@@ -1,5 +1,6 @@
 import React from "react";
 import "./GemSearch.css";
+import gems from "./gems.json";
 
 const GemSearch = () =>
 <div className="container">

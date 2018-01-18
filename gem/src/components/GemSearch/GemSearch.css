@@ -28,4 +28,15 @@ h1 {
 .form-group {
     text-align: center;
 }
+
+.btn-primary {
+    color: #fff;
+    /* background-color: #337ab7; */
+    border-color: #2e6da4;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to bottom,#411346 0,#411346 100%);
+    border-color: #411346;
+}
     

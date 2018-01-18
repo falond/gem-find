@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "image": "http://www.jewelrywise.com/content/articles-horizontal/15.14-turquoise.jpg",
+      "name": "Turquoise",
+      "healing": "Protection, Wisdom, Positive Thoughts, Balance, Courage, Friendship, Healing, Luck, Love",
+      "description": "Turquoise can be a very powerful stone for protection. It increases inner calmness and eases depression, fears, exhaustion and anxiety. It is a stone for friendship and love. Turquoise has calming effects when speaking in public. It helps us to express ourselves and aids in creative problem solving. This powerful stone also stimulates our intuition and helps in meditation."
+    },
+    {
+      "id": 2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71YPRMxUpOL._SL1200_.jpg",
+      "name": "Amethyst",
+      "healing": "Clarity of thought, Relief from grief, Protection, Wisdom",
+      "description": "Amethyst is a very powerful crystal for healing. It is know to calm and bring clarity to the mind, to relieve stress, sooth sadness, anger and anxiety and balance mood swings. It helps us to focus and stimulates motivation, concentration and memory. Amethyst activates our intuitive and psychic abilities, aids in meditation and is said to attract justice."
+    },
+    {
+      "id": 3,
+      "image": "http://i.ebayimg.com/00/s/NjE0WDc4MQ==/z/m64AAOSw-nZTnrdb/$_32.JPG?set_id=880000500F",
+      "name": "Blue Topaz",
+      "healing": "Good fortune, Communication, Wisdom, Truth, Abundance, Honesty, Relaxation, Forgiveness",
+      "description": "This beautiful sky blue stone balances the 5th Chakra, increasing communication skills, truth, wisdom and forgiveness, helping you to stay true to yourself. Blue Topaz promotes joy, abundance and good fortune. It also encourages honesty, aids in expressing ideas and artistic inspirations and increases intelligence and creativity Blue Topaz facilitates thinking through and expressing complex concepts and ideas."
+    },
+    {
+      "id": 4,
+      "image": "http://crystalhealingshop.com/wp-content/uploads/2016/05/clear_quartz.jpg",
+      "name": "Crystal Quartz",
+      "healing": "Protection, Healing, Harmony, Energy, Clarity, Calmness",
+      "description": "Clear crystal protects from negative energies, neutralizing radiation. It stimulates the immune system and overall balance. Placed near the computer screen, Crystal Quartz helps to dispel electromagnetic radiation."
+    },
+    {
+      "id": 5,
+      "image": "https://www.crystalinnercircle.com/wp-content/uploads/2016/06/moonstone.jpg",
+      "name": "Moonstone",
+      "healing": "Love, Abundance, Good luck, Happiness, Psychic abilities, Feminine energies",
+      "description": "Moonstone aids in inner growth, strengthens intuition and stabilises emotions. It is known as a stone for new beginnings, success in love and business, and good fortune. It promotes inspiration and protects us, especially those of us who are very sensitive. Moonstone is said to perceive that which IS, making it a very personal stone. It is a great aid for meditation, helping us to understand ourselves. Moonstone also soothes stress and anxiety."
+    },
+    {
+      "id": 6,
+      "image": "https://smhttp-ssl-64693.nexcesscdn.net/media/wysiwyg/crystal-meanings/onyx-onyxmeaning.jpg",
+      "name": "Onyx",
+      "healing": "Support, Strength, Stamina, Protection",
+      "description": "Onyx is an excellent stone for stressful or challenging situations as it gives us strength and support. It’s soothing qualities alleviate fear and worries and encourage wise decision-making. Onyx is known to increase happiness, intuition and good fortune. It is known to help us change bad habits and keep emotions under control. Onyx helps us to focus and stay grounded."
+    },
+    {
+      "id": 7,
+      "image": "http://www.crystalage.com/img/products/rose-quartz-generator-point-55mm_1.jpg",
+      "name": "Rose Quartz",
+      "healing": "Love: Romantic love, Self love, Platonic love, Unconditional love, Deep care, Compassion, Happiness, Forgiveness, Friendship",
+      "description":"Rose Quartz acts healing and strengthening for the physical heart and stimulates the circulatory system, increasing fertility and protecting against radiation. As a nice bonus, Rose Quartz is said to reduce wrinkles. It is also known to be a protective stone during pregnancy, protecting from miscarriage."
+    },
+    {
+      "id": 8,
+      "image": "https://4.bp.blogspot.com/-qtPgB0NocoY/WErDRE_QBiI/AAAAAAAAD6E/NtBTVUwugAccVu5luPXvsivbRjOzEWT9QCLcB/s1600/citrine.jpg",
+      "name": "Citrine",
+      "healing": "Prosperity, Courage, Confidence, Strength, Warmth, Happiness, Creativity, Joy of life, Protection, Self-esteem, Opens the mind to new thoughts, Optimism",
+      "description":"Citrine is an absolute power stone, energizing its wearer on all levels. It is known to attract prosperity and success. Citrine increases self-confidence and stimulates creativity, enthusiasm, and joy. As it helps you get centered and rest in your power, Citrine is great to help in making important decisions. It also balances emotions and gives relief for depression, stress and anxiety, bringing joy, optimism and love to its owner. This beautiful yellow-gold crystal is unique in its power to dissolve negative energy without the need to be cleansed."
+    },
+    {
+      "id": 9,
+      "image": "http://thehealingchest.com/assets/images/stones/amazonite.jpg",
+      "name": "Amazonite",
+      "healing": "Truth, Self-love, Communication, Trust, Clarity, Patience, Tolerance",
+      "description":"Amazonite has extremely soothing quality and acts calming on the brain and the nervous system. It brings balance into our life and gives relief to blockages due to trauma or fear. It stimulates integrity, truth and honour and is said to balance male and female energies. Amazonite increases confidence and strengthens communication skills, helping us to express ourselves. It is a particularly good stone for writers and artists, increasing creativity and self-expression. It is a great stone to open our minds and help us see both sides of a problem, hence being a great helper in leadership."
+      },
+
+    {
+        "id": 10,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_VHRjBQq9jbXleg6CkiDBz03Su5RVIvaUlJGnO1LX7CifJoLUrw",
+        "name": "Ruby",
+        "healing": "Vitality, Energy, Zest of life, Passion, Courage, Love, Healing",
+        "description":"Ruby is a symbol of vitality, contentment, energy and zest for life. It is said to encourage passion and self-love. Be releasing destructive emotional patterns, it helps us to develop more love for ourselves. Through activating passion and life-force, this gorgeous stone helps us to improve motivation and set goals."
+    }
+  ]
+  
