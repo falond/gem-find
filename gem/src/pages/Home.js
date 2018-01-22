@@ -2,12 +2,12 @@ import React from "react";
 import Features from "../components/Features";
 import Jumbotron from "../components/Jumbotron";
 import StoneCards from "../components/StoneCards";
-import GemSearch from "../components/GemSearch";
+import GemCheckBoxs from "../components/GemCheckBoxs";
 
 const Home = () =>
 <div>
 <Jumbotron />
-<GemSearch />
+<GemCheckBoxs />
 <StoneCards />
 <Features />
 </div>
