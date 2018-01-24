@@ -7,7 +7,7 @@ import Wrapper from "./components/Wrapper";
 import Home from "./pages/Home";
 import StoneLandingP from "./pages/StoneLandingP";
 import Calendar from "./pages/Calendar";
-import gems from "./gems.json";
+
 
 const App = () =>
 <Router>

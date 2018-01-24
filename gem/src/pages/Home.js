@@ -8,7 +8,7 @@ const Home = () =>
 <div>
 <Jumbotron />
 <GemCheckBoxs />
-<StoneCards />
+
 <Features />
 </div>
 

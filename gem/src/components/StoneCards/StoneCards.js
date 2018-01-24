@@ -3,7 +3,7 @@ import "./StoneCards.css";
 
 
 
-const StoneCards = () =>
+const StoneCards = (props) => 
 
 // <div className="container">
 //   <hr/>
@@ -30,9 +30,9 @@ const StoneCards = () =>
 <div className="card">
 <div className="img-container">
   <div className="thumbnail">
-  <img alt="" />
+  <img alt="" src={props.image} />
     <div className="caption">
-      <h3>Hello</h3>
+      <h3>{props.name}</h3>
       <p><b>fgdfgdfgdfgdffdgdg</b></p>
       <p>hdgdfgdfgfdgdfg</p>
       <p><a href="/popular-stones" className="btn btn-primary" role="button">Read More!</a></p>
@@ -42,7 +42,6 @@ const StoneCards = () =>
 </div>
 </div>
 </div>
-
 
 
 
