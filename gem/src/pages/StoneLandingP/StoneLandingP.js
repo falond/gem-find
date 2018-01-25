@@ -143,7 +143,7 @@ const StoneLandingP = () =>
       <div class="container marketing">
 <hr className="featurette-divider" />
 
-      <div class="row">y btbzty6yjmgn
+      <div class="row">
         <div class="col-lg-4">
           <img class="rounded-circle" id="ruby"  alt="" width="140" height="140" />
           <h2>Ruby</h2>

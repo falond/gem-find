@@ -1,89 +1,105 @@
 import React from "react";
 import "./GemCheckBoxs.css";
 import gems from "../../gems.json";
-import StoneCards from "../StoneCards";
+import Protection from "../Protection";
+import Luck from "../Luck";
+import Love from "../Love";
+import Friendship from "../Friendship";
+import Communication from "../Communication";
+import Clarity from "../Clarity";
+import Courage from "../Courage";
 import Wrapper from "../Wrapper";
 
-
 class GemCheckBoxs extends React.Component {
-  constructor(props) {
+	constructor(props){
     super(props);
-		this.state = {
-			value: 'Crystal Quartz',
-			gems,
-			image: ""
+    this.state={
+			catType: '',
+			gems
+    }
+ }
 
-	};
-		
+ changeModel(){
+    var ele = document.getElementById('car_type').value;
+    this.setState({catType: ele});      
+ }
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-	}
+ _populateModels(){
 
+   var protection = [ <option value="Crystal Quartz">Crystal Quartz</option>,
+											<option value="Turquoise">Moonstone</option>,
+											<option value="Oynx">Moonstone</option>,
+							        <option value="Amethyst">Blue Topaz</option>];
+   var luck = [ <option value = 'Moonstone'>Moonstone</option>,
+                <option value='Turquoise'>Turquoise</option>];
+   var communication = [ <option value = 'Blue Topaz'>Blue Topaz</option>,
+                         <option value='Amazonite'>Amazonite</option>];
+	 var love = [ <option value = 'Turquoise'>Turquoise</option>,
+								<option value='Moonstone'>Moonstone</option>,
+								<option value='Ruby'>Ruby</option>,
+							  <option value = 'Rose Quartz'>Rose Quartz</option>];
+	 var friendship = [ <option value = 'Tourquoise'>Tourquoise</option>,
+                      <option value='Rose Quartz'>Rose Quartz</option>,
+							        <option value = 'Moonstone'>Moonstone</option>];
+	 var clarity = [ <option value = 'Amethyst'>Amethyst</option>,
+                   <option value='Crystal Quartz'>Crystal Quartz</option>,
+							     <option value = 'Amazonite'>Amazonite</option>];
+	 var courage = [ <option value = 'Ruby'>Ruby</option>,
+                   <option value='Citrine'>Citrine</option>,
+                   <option value = 'Turquoise'>Turquoise</option>];
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
+   switch(this.state.catType){
+    case 'protection':
+					return <Protection />;
+    case 'luck':
+          return <Luck />;
+    case 'communication':
+					return <Communication />;
+		case 'love':
+					return <Love />;
+		case 'friendship':
+					return <Friendship />;
+		case 'clarity':
+					return <Clarity />;
+		case 'courage':
+          return <Courage />
+						;
   }
+}
 
-  handleSubmit(event) {
-		event.preventDefault();
-	// 	const listItems = gems.map((gems) =>
-	// 	<li key={gems.id}>{gems.name}</li>
-	// )
-	console.log(this.state.value);
-
-	const results = this.state.gems.filter(gems => gems.name === this.state.value);
-		this.setState({ value: event.target.value }, () => console.log(results));
-
-    // alert('Your favorite flavor is: ' + this.state.value);
-
-	}
-
-  
-	render() {
-	  return (
-		<div className="container">
+render(){
+    return(
+			<div className="container">
 		<hr className="featurette-divider" />
 		<div className="container">
 		<h1>Select A Healing Property</h1>
-        <p id="p1">Once your select a healing property click submit to see your results</p>
+        <p id="p1">Once your select a healing property your results will show</p>
         <br />
-		<form id="select" onSubmit={this.handleSubmit}>
-		  <label>
-			<select className="form-control form-control-lg" value={this.state.value} onChange={this.handleChange} >
-			  <option value="Crystal Quartz">Protection</option>
-			  <option value="Moonstone">Luck</option>
-			  <option value="Blue Topaz">Communication</option>
-			  <option value="Rose Quartz">Love</option>
-			  <option value="Turquoise">Friendship</option>
-			  <option value="Blue Topaz">Forgiveness</option>
-			  <option value="Amethyst">Clarity</option>
-			  <option value="Ruby">Courage</option>
-			</select>
-		  </label>
-		  <input className="btn btn-primary btn-sm" id="submit" type="submit" value="Submit"/>
-			</form>
+                      <form id="select" action="#" method="get" className="form-horizontal">
+                                <div className="control-group">
+                                    <label className="control-label"></label>
+                                    <div className="controls" >
+																		
+                                      <select className="form-control form-control-lg" id ="car_type" onChange = {this.changeModel.bind(this)}>
+																			<option value ="">Select From The Drop Down</option>
+                                        <option value ="luck">LUCK</option>
+                                        <option value ="love">LOVE</option>
+																				<option value ="clarity">CLARITY</option>
+																				<option value ="courage">COURAGE</option>
+																				<option value ="protection">PROTECTION</option>
+																				<option value ="friendship">FRIENDSHIP</option>
+																				<option value ="communication">COMMUNICATION</option>
 
-			<Wrapper>
+																				
+                                      </select>
+                                    </div>
+                                </div>
+                      </form>
+											{this._populateModels()}
+                    </div>
+                </div>
 
-	
-          <StoneCards
-						// key={gem.id}
-						// image={gem.image}
-            name={this.state.value}
-            // healing={gem.healing}
-						// description={gem.description}
-          />
-				</Wrapper>
-     
-	 
-
-
-
-
-		</div>
-		</div>
-	  );
-	}
+     )
   }
+}
 export default GemCheckBoxs;
