@@ -2,13 +2,14 @@ import React from "react";
 import "./GemCheckBoxs.css";
 import gems from "../../gems.json";
 import StoneCards from "../StoneCards";
+import Wrapper from "../Wrapper";
 
 
 class GemCheckBoxs extends React.Component {
   constructor(props) {
     super(props);
 		this.state = {
-			value: 'Amethyst',
+			value: 'Crystal Quartz',
 			gems,
 			image: ""
 
@@ -18,28 +19,7 @@ class GemCheckBoxs extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
 	}
-	// componentDidMount() {
-	// 	fetch('../../gems.json')
-			
-	// 		.then(data => {
-	// 			this.setState({
-	// 				id: data.id,
-	// 				image: data.image,
-	// 				name: data.name,
-	// 				healing: data.healing,
-	// 				description: data.description,
-	// 				protection: data.protection,
-	// 				luck: data.luck,
-	// 				wisdom: data.wisdom,
-	// 				love: data.love,
-	// 				friendship: data.friendship,
-	// 				clarity: data.clarity,
-	// 				forgiveness: data.forgiveness,
-	// 				courage: data.courage,
 
-	// 			});
-	// 		});
-	// }
 
   handleChange(event) {
     this.setState({value: event.target.value});
@@ -71,27 +51,33 @@ class GemCheckBoxs extends React.Component {
 		<form id="select" onSubmit={this.handleSubmit}>
 		  <label>
 			<select className="form-control form-control-lg" value={this.state.value} onChange={this.handleChange} >
-			  <option value="Amethyst">Protection</option>
-			  <option value="Ruby">Luck</option>
-			  <option value="3">Communication</option>
-			  <option value="3">Love</option>
-			  <option value="3">Friendship</option>
-			  <option value="3">Forgiveness</option>
-			  <option value="3">Clarity</option>
-			  <option value="3">Courage</option>
+			  <option value="Crystal Quartz">Protection</option>
+			  <option value="Moonstone">Luck</option>
+			  <option value="Blue Topaz">Communication</option>
+			  <option value="Rose Quartz">Love</option>
+			  <option value="Turquoise">Friendship</option>
+			  <option value="Blue Topaz">Forgiveness</option>
+			  <option value="Amethyst">Clarity</option>
+			  <option value="Ruby">Courage</option>
 			</select>
 		  </label>
 		  <input className="btn btn-primary btn-sm" id="submit" type="submit" value="Submit"/>
+			</form>
 
-		</form>
+			<Wrapper>
+
 	
-		  {this.state.gems.map(friend => (
           <StoneCards
-					name={this.state.value}
-          image={this.state.image}
-           
+						// key={gem.id}
+						// image={gem.image}
+            name={this.state.value}
+            // healing={gem.healing}
+						// description={gem.description}
           />
-        ))}
+				</Wrapper>
+     
+	 
+
 
 
 
